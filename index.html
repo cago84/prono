@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questionnaire</title>
+  <meta name="theme-color" content="#4f46e5">
+  <meta name="description" content="Répondez à des questionnaires et retrouvez vos réponses avec leur historique.">
+  <meta name="referrer" content="no-referrer">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Questionnaire">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header id="topbar" class="topbar" hidden></header>
+  <main id="main" tabindex="-1"></main>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <!-- Bibliothèque Supabase (copie locale, aucun CDN) -->
+  <script src="vendor/supabase.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
